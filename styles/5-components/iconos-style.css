@@ -1,0 +1,42 @@
+.logos {
+    padding-top: 96px;
+    padding-bottom: 96px;
+    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .title-logo{
+    font-family: var(--display);
+    color: var(--foreground);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 36px; /* 100% */
+    padding-bottom: 24px;
+  }
+  
+  .navigation{
+    font-family: var(--heading);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contenedor{
+    max-width: var(--width-2xl);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  .list-icons{
+    padding-top: var(--spacing-12);
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .list-icons > li {
+    display: inline-block;
+  }
