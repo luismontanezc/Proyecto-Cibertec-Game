@@ -1,0 +1,81 @@
+#footer {
+	font-family: Arial, Helvetica, sans-serif;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 16px 0 150px 0;
+	margin: 0;
+	text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	background: #010102;
+    
+}
+#footer {
+    position: relative;
+}
+
+#footer.small_footer {
+    position: relative; 
+    top: auto;
+    bottom: auto;
+}
+#footer_spacer.small_footer {
+    height: 50px;
+}
+#footer .footer_content {
+    width: 940px;
+    margin: 0px auto;
+    padding-top: 16px;
+}
+#footer #footer_logo {
+    float: left;
+    padding-top: 2px;
+}
+#footer #footer_logo img {
+    height: 40px;
+    width: auto;
+}
+#footer #footer_logo_Ciber {
+    float: right;
+    padding-top: 8px;
+}
+#footer #footer_texto {
+    float: left;
+    margin-left: 12px;
+    color: #8F98A0;
+    font-size: 12px;
+    line-height: 16px;
+}
+#footer #footer_texto a {
+    text-decoration: none;
+    color: #C6D4DF;
+}
+#footer .rule{
+    height: 8px;
+    border-top: 1px solid #363c44;
+    }
+#footer .ciber_links {
+    margin-top: 8px;
+	font-family: "Motiva Sans", Sans-serif;
+	font-weight: normal;
+	font-size: 13px;
+    color: #61686D;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: row;
+    }
+#footer .ciber_links a {
+	color: #C6D4DF;
+	display: flex;
+	align-items: center;
+    }
+#footer .ciber_links img {
+	margin-right: 4px;  
+	}
+#footer .extra_space {
+	height: 60px;
+	}
+
